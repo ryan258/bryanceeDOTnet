@@ -330,6 +330,7 @@ h3 { font-size: clamp(1.7rem, 3.2vw, 2.65rem); }
 }
 .home-contact h2 { font-size: clamp(2rem, 4vw, 3.9rem); }
 .home-contact p { margin-top: .3rem; }
+.home-contact .text-link { text-decoration-color: var(--accent); }
 .live-ticket {
   width: clamp(5rem, 15vw, 13rem);
   aspect-ratio: 240 / 132;
@@ -528,9 +529,10 @@ h3 { font-size: clamp(1.7rem, 3.2vw, 2.65rem); }
     background-size: cover;
     mask-image: linear-gradient(transparent, #000 48%);
   }
-  .bio-layout, .album-intro, .album-details, .error-page { grid-template-columns: 1fr; }
+  .bio-layout, .album-details, .error-page { grid-template-columns: 1fr; }
+  .album-intro { grid-template-columns: minmax(0, 1fr); }
   .bio-picture img { max-width: 22rem; }
-  .album-cover { max-width: 21rem; }
+  .album-cover { max-width: min(100%, 21rem); }
 }
 
 @media (max-width: 34rem) {
