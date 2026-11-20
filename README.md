@@ -15,7 +15,7 @@ Open [the local Hugo preview](http://localhost:1313/). Run `hugo` to produce the
 ## Update the site
 
 - Edit the homepage introduction, bio, and contact copy under [content](content/).
-- Edit album summaries, track lists, liner notes, and SoundCloud players under [content/album](content/album/).
+- Edit album summaries, track lists, liner notes, SoundCloud players, and external `listenLink` URLs under [content/album](content/album/).
 - Edit the booking email and social profiles in [hugo.toml](hugo.toml).
 - Add upcoming performances to the front matter in [content/live.md](content/live.md). Remove entries once the shows have passed.
 
