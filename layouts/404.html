@@ -1,0 +1,10 @@
+{{ define "main" }}
+<div class="wrap section error-page">
+  <div class="page-heading">
+    <h1>Page not found</h1>
+    <p class="lede">Looks like this page is a ghost that got abducted by aliens.</p>
+    <a class="button dark" href="{{ site.Home.RelPermalink }}">Back to home</a>
+  </div>
+  <img src="{{ "images/404-ghost.svg" | relURL }}" alt="" width="840" height="727">
+</div>
+{{ end }}

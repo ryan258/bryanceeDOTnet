@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[11],{P0Ig:function(e,t,a){"use strict";a.r(t);var n=a("q1tI"),c=a.n(n),r=a("Bl7J"),s=a("vrFN");t.default=function(){return c.a.createElement(r.a,null,c.a.createElement(s.a,{keywords:["gatsby","tailwind","react","tailwindcss"],title:"Live"}),c.a.createElement("section",{className:"pt-8 md:pt-16"},c.a.createElement("div",{className:"text-center"},c.a.createElement("p",{className:"uppercase "},"There are no upcoming tour dates."))))}}}]);
+//# sourceMappingURL=component---src-pages-live-js-32d91deb7a4e2d12c353.js.map

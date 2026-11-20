@@ -1,0 +1,42 @@
+baseURL = 'https://www.bryancee.net/'
+title = 'Bryan Cee'
+locale = 'en-US'
+disableKinds = ['taxonomy', 'term', 'RSS']
+
+[params]
+description = 'Bryan Cee is a Bahamian singer-songwriter, pianist, composer, and educator. Explore his music, read the story behind it, and get in touch for bookings.'
+email = 'bryanceemusic@gmail.com'
+portrait = 'images/bryan-at-the-piano.webp'
+
+[[params.social]]
+name = 'Instagram'
+url = 'https://www.instagram.com/bryan.cee/'
+
+[[params.social]]
+name = 'YouTube'
+url = 'https://www.youtube.com/channel/UC1l0H9i9eV5iJpORVUD6wgA'
+
+[[params.social]]
+name = 'SoundCloud'
+url = 'https://soundcloud.com/user-520937318'
+
+[[params.social]]
+name = 'Facebook'
+url = 'https://www.facebook.com/BryanCeemusic/'
+
+[[menus.main]]
+pageRef = '/music'
+weight = 10
+
+[[menus.main]]
+pageRef = '/about'
+weight = 20
+
+[[menus.main]]
+pageRef = '/live'
+weight = 30
+
+[[menus.main]]
+name = 'Booking & Contact'
+pageRef = '/contact'
+weight = 40

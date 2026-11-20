@@ -1,0 +1,9 @@
+{{ define "main" }}
+<div class="wrap section">
+  <div class="page-heading">
+    <h1>{{ .Params.heading }}</h1>
+    <div class="lede">{{ .Content }}</div>
+  </div>
+  {{ partial "records.html" . }}
+</div>
+{{ end }}

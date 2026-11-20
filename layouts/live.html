@@ -1,0 +1,26 @@
+{{ define "main" }}
+<div class="wrap section">
+  <div class="page-heading">
+    <h1>{{ .Params.heading }}</h1>
+    <div class="lede">{{ .Content }}</div>
+  </div>
+  <div class="info-panel">
+    {{ with .Params.shows }}
+      <h2>Upcoming shows</h2>
+      <ul class="show-list">
+        {{ range sort . "date" }}
+          <li>
+            <time datetime="{{ time.Format "2006-01-02" .date }}">{{ time.Format "January 2, 2006" .date }}</time>
+            {{ if .url }}<a href="{{ .url }}">{{ .venue }}</a>{{ else }}<strong>{{ .venue }}</strong>{{ end }}
+            {{ with .location }}<span>{{ . }}</span>{{ end }}
+          </li>
+        {{ end }}
+      </ul>
+    {{ else }}
+      <h2>{{ .Params.empty }}</h2>
+    {{ end }}
+    <p>{{ .Params.booking }}</p>
+    <a class="button dark" href="{{ relref . "contact.md" }}">Booking inquiries</a>
+  </div>
+</div>
+{{ end }}

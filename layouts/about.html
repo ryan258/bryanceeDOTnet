@@ -1,0 +1,15 @@
+{{ define "main" }}
+<div class="wrap section">
+  <div class="page-heading">
+    <h1>{{ .Params.heading }}</h1>
+  </div>
+  <div class="bio-layout">
+    <div class="prose">
+      <p class="lede">{{ .Params.intro }}</p>
+      {{ .Content }}
+      <a class="text-link" href="{{ relref . "music.md" }}">Explore the records</a>
+    </div>
+    <figure class="bio-picture">{{ partial "portrait.html" true }}</figure>
+  </div>
+</div>
+{{ end }}
