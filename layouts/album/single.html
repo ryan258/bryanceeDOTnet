@@ -13,7 +13,9 @@
     <section aria-labelledby="listen">
       <h2 id="listen">Listen</h2>
       <iframe class="player" title="SoundCloud player for {{ .Title }}" src="{{ .Params.player }}" loading="lazy" height="166"></iframe>
-      <a class="text-link" href="{{ .Params.player }}">Open the SoundCloud player</a>
+      {{ with .Params.listenLink }}
+        <a class="text-link" href="{{ .url }}">{{ .label }}</a>
+      {{ end }}
     </section>
     <section aria-labelledby="tracks">
       <h2 id="tracks">{{ if .Params.linerNotes }}Tracks &amp; liner notes{{ else }}Track list{{ end }}</h2>

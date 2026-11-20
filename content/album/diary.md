@@ -9,6 +9,7 @@ coverWidth = 850
 coverHeight = 844
 linerNotes = true
 player = "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/880885687&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+listenLink = { url = "https://music.apple.com/us/album/me-diary-of-a-pandemic/1608128296", label = "Open the album on Apple Music" }
 weight = 1
 
 [[tracks]]

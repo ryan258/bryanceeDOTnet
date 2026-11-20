@@ -9,6 +9,7 @@ coverWidth = 500
 coverHeight = 500
 linerNotes = false
 player = "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/880879606&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+listenLink = { url = "https://music.apple.com/us/album/wybe-of-life-ep/1868259236", label = "Open the five-track EP on Apple Music" }
 weight = 2
 
 [[tracks]]
